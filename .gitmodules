@@ -1,3 +1,6 @@
 [submodule "source/rtl8189ES_linux"]
 	path = source/rtl8189ES_linux
 	url = https://github.com/jwrdegoede/rtl8189ES_linux.git
+[submodule "source/8189fs-git"]
+	path = source/8189fs-git
+	url = https://aur.archlinux.org/8189fs-git.git
