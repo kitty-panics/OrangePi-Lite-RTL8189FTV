@@ -1,0 +1,3 @@
+[submodule "source/rtl8189ES_linux"]
+	path = source/rtl8189ES_linux
+	url = https://github.com/jwrdegoede/rtl8189ES_linux.git
