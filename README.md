@@ -14,12 +14,14 @@
 1. 下载对应版本的驱动包
     - [5.17.1-1]
     - [5.17.0-1]
+    - [5.16.15-1]
     - [5.16.5-1]
 2. 安装驱动包
     - `pacman -U 8189fs-git-内核版本号-armv7h.pkg.tar.xz`
 
 [5.17.1-1]: binary/5.17.1-1/8189fs-git-5.17.1-1-armv7h.pkg.tar.xz
 [5.17.0-1]: binary/5.17.0-1/8189fs-git-5.17.0-1-armv7h.pkg.tar.xz
+[5.16.15-1]: binary/5.16.15-1/8189fs-git-5.16.15-1-armv7h.pkg.tar.xz
 [5.16.5-1]: binary/5.16.5-1/8189fs-git-5.16.5-1-armv7h.pkg.tar.xz
 
 **注：**
