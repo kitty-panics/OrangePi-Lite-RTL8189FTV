@@ -1,6 +1,6 @@
 # OrangePi-Lite-RTL8189FTV
 
-适用于 Orange Pi Lite 的 Wi-Fi 驱动 (RTL8189FTV)。
+适用于 Orange Pi Lite 的 Wi-Fi 驱动包 (RTL8189FTV)。
 
 ## 使用
 
@@ -12,32 +12,32 @@
 的驱动包 (其它发行版请自行打包)。
 
 1. 下载对应版本的驱动包
-    - [5.16.5-1]
-    - [5.16.10-1]
-    - [5.16.11-2]
-    - [5.16.11-3]
-    - [5.16.12-1]
-    - [5.16.13-1]
-    - [5.16.15-1]
-    - [5.17.0-1]
     - [5.17.1-1]
+    - [5.17.0-1]
+    - [5.16.15-1]
+    - [5.16.13-1]
+    - [5.16.12-1]
+    - [5.16.11-3]
+    - [5.16.11-2]
+    - [5.16.10-1]
+    - [......]
 
 2. 安装驱动包
     - `pacman -U 8189fs-git-内核版本号-armv7h.pkg.tar.xz`
 
-[5.16.5-1]: binary/5.16.5-1/8189fs-git-5.16.5-1-armv7h.pkg.tar.xz
-[5.16.10-1]: binary/5.16.10-1/8189fs-git-5.16.10-1-armv7h.pkg.tar.xz
-[5.16.11-2]: binary/5.16.11-2/8189fs-git-5.16.11-2-armv7h.pkg.tar.xz
-[5.16.11-3]: binary/5.16.11-3/8189fs-git-5.16.11-3-armv7h.pkg.tar.xz
-[5.16.12-1]: binary/5.16.12-1/8189fs-git-5.16.12-1-armv7h.pkg.tar.xz
-[5.16.13-1]: binary/5.16.13-1/8189fs-git-5.16.13-1-armv7h.pkg.tar.xz
-[5.16.15-1]: binary/5.16.15-1/8189fs-git-5.16.15-1-armv7h.pkg.tar.xz
-[5.17.0-1]: binary/5.17.0-1/8189fs-git-5.17.0-1-armv7h.pkg.tar.xz
 [5.17.1-1]: binary/5.17.1-1/8189fs-git-5.17.1-1-armv7h.pkg.tar.xz
+[5.17.0-1]: binary/5.17.0-1/8189fs-git-5.17.0-1-armv7h.pkg.tar.xz
+[5.16.15-1]: binary/5.16.15-1/8189fs-git-5.16.15-1-armv7h.pkg.tar.xz
+[5.16.13-1]: binary/5.16.13-1/8189fs-git-5.16.13-1-armv7h.pkg.tar.xz
+[5.16.12-1]: binary/5.16.12-1/8189fs-git-5.16.12-1-armv7h.pkg.tar.xz
+[5.16.11-3]: binary/5.16.11-3/8189fs-git-5.16.11-3-armv7h.pkg.tar.xz
+[5.16.11-2]: binary/5.16.11-2/8189fs-git-5.16.11-2-armv7h.pkg.tar.xz
+[5.16.10-1]: binary/5.16.10-1/8189fs-git-5.16.10-1-armv7h.pkg.tar.xz
+[......]: binary
 
 **注：**
 
-鉴于每次升级内核后得重新编译一次驱动，为方便管理和识别旧驱动，驱动包的版本号将与 linux-armv7
+由于每次升级内核后需重新编译一次驱动，为方便管理和识别旧驱动，驱动包的版本号将与 linux-armv7
 内核包的版本号同步。
 
 ### 通过源码编译安装
@@ -53,4 +53,6 @@
 
 **注：**
 
-编译需安装 **linux-armv7-headers** 软件包。
+编译需安装 [linux-armv7-headers] 软件包。
+
+[linux-armv7-headers]: https://archlinuxarm.org/packages/armv7h/linux-armv7-headers
