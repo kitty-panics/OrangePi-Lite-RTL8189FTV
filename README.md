@@ -1,6 +1,6 @@
 # OrangePi-Lite-RTL8189FTV
 
-适用于 Orange Pi Lite 的 RTL8189FTV (Wi-Fi) 驱动。
+适用于 Orange Pi Lite 的 Wi-Fi 驱动 (RTL8189FTV)。
 
 ## 使用
 
@@ -8,16 +8,16 @@
 
 ### 通过包管理器安装
 
-对于一切系统文件，应该尽可能使用包管理器进行管理。为此本仓库提供了适用于 Arch Linux
-ARM 的软件包 (对于其它发行版请自行打包)。
+对于一切系统文件，应该尽可能使用包管理器进行管理。因此本仓库提供了适用于 Arch Linux
+ARM 的软件包 (其它发行版请自行打包)。
 
-1. `curl -LO 'https://github.com/kitty-panics/OrangePi-Lite-RTL8189FTV/raw/master/binary/5.16.5/8189fs-git-5.16.5-1-armv7h.pkg.tar.xz'`
-2. `pacman -U 8189fs-git-5.16.5-1-armv7h.pkg.tar.xz`
+1. `curl -LO 'https://github.com/kitty-panics/OrangePi-Lite-RTL8189FTV/raw/master/binary/内核版本号/8189fs-git-内核版本号-armv7h.pkg.tar.xz'`
+2. `pacman -U 8189fs-git-内核版本号-armv7h.pkg.tar.xz`
 
 **注：**
 
-鉴于每次升级内核后得重新编译一次驱动，为方便管理和识别旧驱动，软件包名将与 linux-armv7
-内核包的版本号一致。
+鉴于每次升级内核后得重新编译一次驱动，为方便管理和识别旧驱动，软件包的版本号将与 linux-armv7
+内核包的版本号同步。
 
 ### 通过源码编译安装
 
