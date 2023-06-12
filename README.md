@@ -1,5 +1,7 @@
 # OrangePi-Lite-RTL8189FTV
 
+![OrangePi-Lite](.docs/img/logo.png)
+
 适用于 Orange Pi Lite 的 Wi-Fi 驱动包 (RTL8189FTV)。
 
 ## 使用
